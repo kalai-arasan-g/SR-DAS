@@ -1,0 +1,18 @@
+,S&P 500 stocks
+Start,2005-01-03
+End,2026-10-12
+Trading days,5478
+Stocks with >= 252 member days,599
+"Asset ann. return, median",0.07618488577555516
+"Asset ann. vol, median",0.33564613409682253
+"Asset ann. vol, min",0.17327141915003216
+"Asset ann. vol, 5th pct",0.2165457039607117
+"Asset ann. vol, 95th pct",0.6074244295470066
+"Asset ann. vol, max",3.6199059592299094
+Market ann. return (S&P 500 price index),0.08947396559501097
+Market ann. vol,0.1896317443555826
+"Avg pairwise corr, all days (mean of yearly values)",0.3338345732242694
+"Avg pairwise corr, stress days (mean of yearly values)",0.23036080537401374
+Tickers ever members since 2000,1097
+Tickers with no Yahoo price history,380
+Share with no Yahoo price history,0.3463992707383774

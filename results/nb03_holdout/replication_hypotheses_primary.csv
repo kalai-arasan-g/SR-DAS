@@ -1,0 +1,8 @@
+Hypothesis,Description,Statistic,Detail,Verdict
+H1,"Stress-day basket correlation lower than Top-k Quality (paired, one-sided)",mean diff -0.115,"p = 0.0000, lower in 92% of periods",SUPPORTED
+H2,Volatility lower than EW-All (1/N),ratio 0.893,"95% CI [0.867, 0.921]",SUPPORTED
+H3,Volatility lower than pure-diversity SR-DAS (theta=0),ratio 0.889,"95% CI [0.862, 0.920]",SUPPORTED
+H4,"Sharpe not significantly below EW-All (1/N) (two-sided, 5%)",diff +0.043,p = 0.5380,SUPPORTED
+H5,"Stress-day basket correlation lower than Stress-Cluster rule (RQ1, one-sided)",mean diff +0.034,"p = 0.9991, lower in 29% of periods",NOT supported
+H6,Stress conditioning lowers stress-day basket correlation vs all-day correlation (RQ2),mean diff +0.002,"p = 0.3598, lower in 56% of periods",NOT supported
+H7,Robust aggregation lowers stress-day basket correlation vs single window (RQ3),mean diff +0.005,"p = 0.5980, lower in 49% of periods",NOT supported

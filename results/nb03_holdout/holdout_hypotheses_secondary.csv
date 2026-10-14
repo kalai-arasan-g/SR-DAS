@@ -1,0 +1,5 @@
+Hypothesis,Description,Statistic,Detail,Verdict
+H1,"Stress-day basket correlation lower than Top-k Quality (paired, one-sided)",mean diff -0.146,"p = 0.0000, lower in 84% of periods",SUPPORTED
+H2,Volatility lower than EW-All (1/N),ratio 0.983,"95% CI [0.955, 1.009]",NOT supported
+H3,Volatility lower than pure-diversity SR-DAS (theta=0),ratio 0.968,"95% CI [0.914, 1.034]",NOT supported
+H4,"Sharpe not significantly below EW-All (1/N) (two-sided, 5%)",diff +0.129,p = 0.1620,SUPPORTED

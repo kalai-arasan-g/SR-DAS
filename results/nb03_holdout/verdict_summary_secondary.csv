@@ -1,0 +1,5 @@
+Hypothesis,Description,Holdout 1970-1989,Replication 1990+
+H1,"Stress-day basket correlation lower than Top-k Quality (paired, one-sided)",SUPPORTED,SUPPORTED
+H2,Volatility lower than EW-All (1/N),NOT supported,SUPPORTED
+H3,Volatility lower than pure-diversity SR-DAS (theta=0),NOT supported,SUPPORTED
+H4,"Sharpe not significantly below EW-All (1/N) (two-sided, 5%)",SUPPORTED,SUPPORTED

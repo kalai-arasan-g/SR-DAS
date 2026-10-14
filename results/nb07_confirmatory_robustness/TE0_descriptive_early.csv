@@ -1,0 +1,14 @@
+,"Industries, 1931-1969"
+Start,1931-07-01
+End,1969-12-31
+Trading days,10545
+Assets,43
+"Asset ann. return, median",0.09799593685845309
+"Asset ann. vol, median",0.23728015878602884
+"Asset ann. vol, min",0.13660770442475664
+"Asset ann. vol, max",0.7043037528585284
+Market ann. return,0.09098106008714724
+Market ann. vol,0.16961410762125184
+"Avg pairwise corr, all days",0.48619401445935023
+"Avg pairwise corr, calm days",0.38285258539258754
+"Avg pairwise corr, stress days",0.39869268183601675
