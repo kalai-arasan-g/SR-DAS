@@ -1,5 +1,7 @@
 # SR-DAS: Balancing Quality and Diversity in Determinantal Asset Selection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23360778.svg)](https://doi.org/10.5281/zenodo.23360778)
+
 Code, frozen specification and results for the manuscript
 
 > Kalaiarasan G. *Balancing Quality and Diversity in Determinantal Asset Selection: A Pre-specified Test under Market Stress.* Submitted to *Quantitative Finance*.
@@ -52,13 +54,17 @@ python verify_fingerprints.py
 
 The data are not redistributed here; the notebooks download them. Yahoo Finance data change over time (for example, delisted tickers disappear), so a rerun of the stock notebooks can differ slightly from the reported results. The industry results are exactly reproducible as long as the French library files do not change.
 
+## Note on annualization in 1931–1969
+
+The notebooks annualize returns, volatilities and Sharpe ratios with 252 trading days per year. Until 1952 the NYSE also traded on Saturdays, so the 1931–1969 sample has 10,545 trading days in 38.5 calendar years (273.9 per year). The paper reports that sample in calendar time: volatilities and Sharpe ratios in `results/nb07_confirmatory_robustness` are multiplied by √(273.9/252) = 1.0425, CAGR is converted as (1 + CAGR)^(273.9/252) − 1, and turnover per year is multiplied by 273.9/252. Drawdowns, stress betas, co-movement, volatility ratios and all p-values are unaffected. The later samples have about 252 trading days per year, so no conversion is needed there.
+
 ## Software
 
 Python 3.13 with numpy 2.1.3, pandas 2.2.3, scipy 1.16.3, scikit-learn 1.9.1 and networkx 3.7 (Google Colab, October 2026). See `requirements.txt`.
 
 ## Citation
 
-If you use this code, please cite the paper (see `CITATION.cff`).
+If you use this code, please cite the paper and the archived code: Kalaiarasan G (2026), *SR-DAS: code and frozen specification*, version 1.0.0, Zenodo, https://doi.org/10.5281/zenodo.23360778 (see also `CITATION.cff`).
 
 ## License
 
