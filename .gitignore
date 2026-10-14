@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+outputs_*/
+outputs_*.zip
+.DS_Store
