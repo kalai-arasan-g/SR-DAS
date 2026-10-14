@@ -1,0 +1,36 @@
+{
+  "agg_q": 0.75,
+  "cost_bps": 10,
+  "dataset": "Fama-French 49 industry portfolios, daily, value-weighted",
+  "decision_rule": "The holdout verdicts are the headline results; the 1990+ replication was seen during development and is reported as supporting evidence only.",
+  "holdout_period": [
+    "1970-01-01",
+    "1989-12-31"
+  ],
+  "hypotheses": {
+    "H1": "Primary's out-of-sample stress-day basket correlation < Top-k Quality (paired Wilcoxon, one-sided, alpha=0.05)",
+    "H2": "Primary's volatility < EW-All 1/N (block-bootstrap 95% CI of ratio entirely below 1)",
+    "H3": "Primary's volatility < pure-diversity SR-DAS theta=0 (95% CI of ratio below 1)",
+    "H4": "Primary's Sharpe not significantly below EW-All 1/N (two-sided block bootstrap, alpha=0.05)",
+    "H5": "RQ1: stress-day basket correlation < Stress-Cluster rule (one-sided Wilcoxon)",
+    "H6": "RQ2: stress-day basket correlation < same method with all-day correlation (one-sided Wilcoxon)",
+    "H7": "RQ3: stress-day basket correlation < same method with single-window estimate (one-sided Wilcoxon)"
+  },
+  "k": 10,
+  "kernel_a": 0.5,
+  "lookback_days": 1260,
+  "multiple_testing": "Holm correction across all Sharpe comparisons of the primary method",
+  "primary_method": "B-SR-DAS (balanced): log-det on robust stress correlation, theta set by balanced_theta (beta=1)",
+  "rebalance_days": 63,
+  "replication_period": [
+    "1990-01-01",
+    "latest"
+  ],
+  "secondary_method": "S-SR-DAS: top 50% by quality, then pure log-det (theta=0) on robust stress correlation",
+  "stress_q": 0.1,
+  "sub_len": 504,
+  "sub_step": 126,
+  "weights": "equal"
+}
+
+fingerprint: a1be5ab38d9e20b6

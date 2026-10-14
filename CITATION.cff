@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "SR-DAS: code and frozen specification for 'Balancing Quality and Diversity in Determinantal Asset Selection: A Pre-specified Test under Market Stress'"
+authors:
+  - family-names: "G"
+    given-names: "Kalaiarasan"
+    affiliation: "Amrita School of Artificial Intelligence, Amrita Vishwa Vidyapeetham, Coimbatore, India"
+    email: "kalai.forward@gmail.com"
+version: "1.0.0"
+date-released: "2026-10-14"
+license: MIT
+repository-code: "https://github.com/XXXXXX/SR-DAS"
+keywords:
+  - asset selection
+  - diversification
+  - determinantal point processes
+  - crisis correlation
+  - pre-specified hypotheses

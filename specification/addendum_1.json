@@ -1,0 +1,13 @@
+{
+  "crisis_windows": "Market drawdown episodes of at least 15% inside the test period, from the running peak to the trough (rule applied to the market index only).",
+  "decision_rule": "All verdicts are reported as they come out, whether supported or not. No parameter, method or hypothesis may be changed after this sample is run.",
+  "eligibility": "Same 95% rule; industries without data in the look-back are simply not eligible.",
+  "hypotheses": "H1-H7 with the same tests and decision rules as in the specification.",
+  "method_and_parameters": "Unchanged: specification a1be5ab38d9e20b6 (primary B-SR-DAS, secondary S-SR-DAS, all comparison methods, k=10, L=1260, h=63, costs 10 bps, equal weights).",
+  "sample": "Fama-French 49 industry portfolios, daily, value-weighted; data from 1926-07-01 (look-back), test period 1931-07-01 to 1969-12-31",
+  "status_of_period": "Never used before for any out-of-sample evaluation. Earlier work used data from 1963-07 only as look-back for the 1970 holdout and for a descriptive correlation figure from 1965.",
+  "title": "Addendum 1 to specification a1be5ab38d9e20b6: second confirmatory sample",
+  "written": "2026-10-13, before any strategy was evaluated on this period"
+}
+
+fingerprint: 27bc5ad38194a6e9
