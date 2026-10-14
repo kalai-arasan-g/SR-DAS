@@ -1,0 +1,10 @@
+{
+  "title": "SR-DAS: code and frozen specification for 'Balancing Quality and Diversity in Determinantal Asset Selection: A Pre-specified Test under Market Stress'",
+  "upload_type": "software",
+  "description": "Seven self-contained Google Colab notebooks, the frozen specification (fingerprint a1be5ab38d9e20b6) and its addendum (fingerprint 27bc5ad38194a6e9), and the output tables for the manuscript submitted to Quantitative Finance.",
+  "creators": [
+    {"name": "G, Kalaiarasan", "affiliation": "Amrita School of Artificial Intelligence, Amrita Vishwa Vidyapeetham, Coimbatore, India"}
+  ],
+  "license": "MIT",
+  "keywords": ["asset selection", "diversification", "determinantal point processes", "crisis correlation", "pre-specified hypotheses"]
+}
