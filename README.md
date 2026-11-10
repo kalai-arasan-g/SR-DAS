@@ -4,7 +4,7 @@
 
 Code, frozen specification and results for the manuscript
 
-> Kalaiarasan G. *Balancing Quality and Diversity in Determinantal Asset Selection: A Pre-specified Test under Market Stress.* Submitted to *Quantitative Finance*.
+> Kalaiarasan G. *Balancing Quality and Diversity in Determinantal Asset Selection: A Pre-specified Test under Market Stress.* Submitted to *Computational Management Science*.
 
 The study asks whether a small basket of assets (k = 10) can be chosen to stay diversified when markets fall. It tests stress-robust determinantal asset selection (SR-DAS) and its balanced version (B-SR-DAS) against cluster-based, network-based and quality-based selection rules and the equally weighted portfolio, using the 49 Fama–French industry portfolios (1931–2026) and point-in-time S&P 500 constituents (2005–2026).
 
